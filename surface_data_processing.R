@@ -60,6 +60,14 @@ well <- lapply(surface_data, filter, tolower(sp) %in% taxa)
 
 #table(unlist(lapply(well, function(x){x$sp})))
 
+#EXPORT PARTITIONED DATA
+#for(i in 1:length(eff)){
+#  df <- rbind.data.frame(well[[i]], eff[[i]])
+#  df <- df[,-c(1,2,14,15,16)] # remove unnecessary columns
+#  df$group <- c(rep("well", length(well[[i]][,1])), rep("eff", length(eff[[i]][,1])))
+#  write.csv(df, paste0("./data2/", filenames[i], ".csv"), row.names = F)
+#}
+
 
 #-------------------------------------------------------------------------------
 # (3) Make spatstat windows
