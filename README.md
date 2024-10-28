@@ -2,9 +2,9 @@
 Use instead "surface_data_read.R" when using the pre-partitioned data available on this repository.
 
 Possible causes of effacement are tested in the following scripts:
-Post-fossilisation processes: 'erosion.R'
-Syn-fossilisation processes: 'taphonomy.R'
-Pre-burial mortality: 'living_dead.R'
+- Post-fossilisation processes: 'erosion.R'
+- Syn-fossilisation processes: 'taphonomy.R'
+- Pre-burial mortality: 'living_dead.R'
 
 The scripts:
 - 'raster_processing_functions.R'
