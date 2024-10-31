@@ -1,6 +1,6 @@
 This repository contains the code required to reproduce the analyses of:
 
-Delahooke, K.M., Liu, A.G., Stephenson, N.P., and Mitchell, E.G. 2024. Effaced Fronds: hidden patterns of early animal mortality (in prep/unpublished PhD chapter)
+<em>Delahooke, K.M., Liu, A.G., Stephenson, N.P., and Mitchell, E.G. 2024. Effaced Fronds: hidden patterns of early animal mortality (in prep/unpublished PhD chapter)</em>
 
 
 "surface_data_processing.R" takes a folder of .csv surface datasets and window coordinates, partitions taxa into 'well-preserved' and 'effaced' specimens and creates spatstat point patterns for future analysis.
